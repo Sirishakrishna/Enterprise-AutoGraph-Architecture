@@ -1,0 +1,4 @@
+Graph Database: Neo4j AuraDB
+Extraction Engine: LangChain Experimental (LLMGraphTransformer)
+LLM: Llama-3.1 70B (via Groq API for lightning-fast inference)
+Environment: GitHub Codespaces (Zero-local installation)

@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Python caching and junk files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data and Models (Never push large data or models to GitHub)
+data/*
+!data/.gitkeep
+faiss_index/
+*.csv
+*.json
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
